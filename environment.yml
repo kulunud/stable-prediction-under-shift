@@ -1,0 +1,21 @@
+name: concept_shift_repro
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python>=3.8
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - scikit-learn
+  - pytorch
+  - tqdm
+  - joblib
+  - jupyter
+  - pip
+  - pip:
+    - pymanopt
